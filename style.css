@@ -1,0 +1,321 @@
+/*
+Theme Name:   Commonsinabox.org Theme
+Theme URI:   http://yoururl.com
+Description:   Theme for CBOX.org
+Tags:   buddypress
+Version:   1.0
+Author:   Bowe Frankema
+Author URI:   http://commonsinabox.org
+Template:   cbox
+ */
+/*
+----------------------------------------------------------------
+CBOX combines all the stylesheets into one file called dynamic.css. You can also write CSS using LESS. To learn all about this visit
+http://commonsinabox.org/documentation/themes/developer-guide/adding-and-overwriting-custom-css
+--------------------------------------------------------------*/
+body.theme-option {
+    background: url("assets/images/bg.png") repeat fixed 0 0 #FFF !important;
+    color: #434343;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14.7px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal !important;
+}
+h2 span,h3 span,h4 span,h1 span {
+    color: #999999;
+}
+#icext-16f6e2e3 img {
+    height: 47px;
+    margin-top: 7px;
+    width: auto;
+}
+/*Fixed Header*/
+#wrapper {
+    padding-top: 80px;
+}
+#wrapper .top-wrap {
+    background: none repeat scroll 0 0 #222222;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.22);
+    margin-top: -90px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+#wrapper .top-wrap:after {
+    bottom: 0;
+    content: "";
+    height: 4px;
+    position: absolute;
+    width: 100%;
+    background: #ef6932;
+    background: -webkit-linear-gradient(left, #ef6932 1%, #18a854 25%, #1dade8 50%, #18a854 75%, #ef6932 100%);
+    background: -moz-linear-gradient(left, #ef6932 1%, #18a854 25%, #1dade8 50%, #18a854 75%, #ef6932 100%);
+    background: -o-linear-gradient(left, #ef6932 1%, #18a854 25%, #1dade8 50%, #18a854 75%, #ef6932 100%);
+    background: -ms-linear-gradient(left, #ef6932 1%, #18a854 25%, #1dade8 50%, #18a854 75%, #ef6932 100%);
+    background: linear-gradient(left, #ef6932 1%, #18a854 25%, #1dade8 50%, #18a854 75%, #ef6932 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef6932', endColorstr='#ef6932',GradientType=1 );
+}
+.top-wrap #header {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: auto;
+    max-width: 1150px;
+    padding: 0;
+    z-index: 99;
+    height: auto;
+}
+/*Layout Stuff*/
+.main-wrap {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+    margin-top: 10px;
+}
+/*Menus*/
+.main-menu ul a {
+    color: #CCCCCC;
+    font-size: 85%;
+    text-transform: uppercase;
+}
+/*Homepage*/
+.home-page .main-wrap.row,
+.home-page .footer-wrap.row {
+    margin: 0;
+    width: inherit;
+    overflow: hidden;
+}
+.home-page .footer-wrap {
+    position: absolute;
+    width: 100% !important;
+    padding-top: 20px;
+}
+.home-page .main-wrap {
+    color: #767676;
+}
+.home-page .main-wrap h2,.home-page .main-wrap h4,.home-page .main-wrap h3 {
+    color: #545454;
+    margin-top: 0;
+}
+.home-page .homepage-block,
+.home-page #footer {
+    max-width: 1150px;
+    margin: auto;
+}
+.home-page .main-wrap {
+    background: none repeat scroll 0 0 transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 120%;
+    line-height: 150%;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.home-page #content {
+    padding-left: 0;
+    padding-right: 0;
+}
+.homepage-block {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+/*Slider*/
+#flex-slider-wrap-full {
+    background: url("assets/images/slide-bg.jpg") repeat fixed center top #FFFFFF;
+    margin-bottom: -88px;
+    margin-top: -4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+}
+#infinity-base .bx-wrapper .bx-viewport {
+    background: transparent;
+}
+.flexslider .slides img {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#infinity-base .slides li {
+    display: block;
+    position: absolute;
+}
+.flex-caption {
+    border-top: 0;
+    background-image: none;
+    background: none repeat scroll 0 0 #1DADE8;
+}
+.flex-caption h3 {
+    display: none;
+}
+/*Global Homepage*/
+.callout {
+    color: #999999;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.section-break .column {
+    margin-bottom: 40px;
+    line-height: 160%;
+}
+.section-break {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+}
+.section-break.orangy {
+    background: #EF6932;
+}
+.section-break.green {
+    background: #18A854;
+}
+.section-break.black {
+    background: #222222;
+}
+.section-break.blue {
+    background: none repeat scroll 0 0 #1DADE8;
+}
+.support-plan-wrap,.installation-wrap {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-top: 1px solid #EEEEEE;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.30);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.30);
+}
+.support-plan img,.testimonials-wrap img,.developer-wrap img {
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+}
+.flex-caption p,.main-wrap .section-break h2 {
+    color: #FFFFFF;
+    font-size: 166%;
+    line-height: 150%;
+    margin: auto;
+    max-width: 1150px;
+    padding: 15px 0;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.14);
+}
+
+
+/*Features*/
+.features-wrap h2:before {
+    color: inherit;
+    font-family: "iconsweetsRegular";
+    font-size: 130%;
+    font-weight: normal;
+    padding-right: 5px;
+    position: relative;
+    text-transform: none;
+    top: 4px;
+}
+.community-powered h2:before {
+    content: "f";
+}
+.curated-plugins h2:before {
+    content: "=";
+}
+.collaboration-tools h2:before {
+    content: "'";
+}
+.activity-streams h2:before {
+    content: "s";
+}
+.discussion-groups h2:before {
+    content: "C";
+}
+.much-more h2:before {
+    content: "l";
+}
+.member-profiles h2:before {
+    content: "a";
+}
+.forums h2:before {
+    content: '"';
+}
+#member-grid .item-avatar,#member-grid .item-avatar img {
+    height: 100px;
+    width: 100px;
+}
+
+/*Testimonials*/
+.testimonials-wrap .column {
+    padding-bottom: 30px;
+    font-style: italic;
+}
+.testimonials-wrap a {
+    display: block;
+    font-size: 70%;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/*Theme Features*/
+.developer-wrap .column {
+    width: 33%;
+    font-size: 90%;
+    margin-bottom: 30px;
+}
+.developer-wrap h4 {
+    font-size: 110%;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.developer-wrap img {
+    margin-bottom: 20px;
+}
+
+/*Support Plan*/
+.support-plan img {
+    margin-bottom: 30px;
+}
+.testimonials-wrap {
+    background: url("assets/images/slide-bg.jpg") repeat fixed center top #FFFFFF;
+}
+
+/*Posts & Pages*/
+.entry h2,.entry h3,.entry h4 {
+    margin-top: 30px;
+}
+.entry {
+    line-height: 160%;
+}
+
+/*Search and Misc*/
+#cboxorg-search .cse .gsc-search-button input.gsc-search-button-v2,#cboxorg-search input.gsc-search-button-v2 {
+    height: 22px;
+    min-width: 40px;
+    padding: 4px 12px;
+}
+#cboxorg-search input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#cboxorg-search table {
+    margin-bottom: 0;
+    height: 1.2em;
+}
+#cboxorg-search table.gsc-search-box td {
+    vertical-align: top;
+    padding: 2px 8px;
+}
+#cboxorg-search td {
+    border-top: none;
+}
+#cboxorg-search {
+    display: none;
+    float: right;
+    width: 250px;
+    height: auto;
+    line-height: 100%;
+}
