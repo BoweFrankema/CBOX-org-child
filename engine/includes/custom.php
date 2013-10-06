@@ -7,13 +7,16 @@ function infinity_slider_insert()
 {
 	// load template for the slider
 	if ( is_page_template( 'templates/homepage-template.php' ) ): ?>
-		<div id="flex-slider-wrap-full">
-			<!-- load template for the slider-->
-			<?php
-				infinity_load_template( 'engine/includes/feature-slider/template.php' );
-			?>
-		</div>
-			<!-- end -->
+<div id="intro-header">
+					<!-- Image -->
+					<a href="http://commonsinabox.org/download">
+						<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/splash-image.png">		
+					</a>
+	<div class="section-break blue">
+		<h2>CBOX takes the complexity out of creating a Commons site, helping organizations create a space where members can discuss issues, collaborate on projects, and share work.</h2>
+	</div>
+
+</div>
 		<?php
 	endif;
 }

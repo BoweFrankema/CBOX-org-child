@@ -39,7 +39,7 @@ infinity_get_header();
 
 	<div class="support-plan-wrap">
 		<?php
-			 //infinity_get_template_part( 'templates/parts/cbox-support-plan' );
+			 infinity_get_template_part( 'templates/parts/cbox-support-plan' );
 		?>
 	</div>
 

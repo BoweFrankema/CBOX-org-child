@@ -21,8 +21,9 @@
   		<h4>
   			<span>Step 2:</span> Choose Features 
   		</h4>
-
-  		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/curated-plugins.png">
+      <a class="lightbox fancybox.iframe" href="http://www.youtube.com/embed/JG1p_x_KZNQ?rel=0">
+    		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/step-features.png">
+      </a>
   	</div>
 
   	<div class="step-3 column six homepage-widget">
@@ -30,7 +31,9 @@
 			<span>Step 3:</span> Customize!
 		</h4>
 
-		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/step-customize.png">
+    <a class="lightbox fancybox.iframe" href="http://www.youtube.com/embed/JG1p_x_KZNQ?rel=0">
+		  <IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/step-customize.png">
+    </a>
 			
   	</div>
 

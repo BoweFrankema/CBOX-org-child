@@ -126,31 +126,14 @@ h2 span,h3 span,h4 span,h1 span {
     padding-top: 40px;
 }
 /*Slider*/
-#flex-slider-wrap-full {
+#intro-header{
     background: url("assets/images/slide-bg.jpg") repeat fixed center top #FFFFFF;
-    margin-bottom: -88px;
-    margin-top: -4px;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+    margin-bottom: -28px;
+    margin-top: 0;
 }
-#infinity-base .bx-wrapper .bx-viewport {
-    background: transparent;
-}
-.flexslider .slides img {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-#infinity-base .slides li {
-    display: block;
-    position: absolute;
-}
-.flex-caption {
-    border-top: 0;
-    background-image: none;
-    background: none repeat scroll 0 0 #1DADE8;
-}
-.flex-caption h3 {
-    display: none;
+#intro-header a img:hover {
+    opacity: 0.8;
 }
 /*Global Homepage*/
 .callout {
@@ -194,7 +177,7 @@ h2 span,h3 span,h4 span,h1 span {
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
 }
-.flex-caption p,.main-wrap .section-break h2 {
+.flex-caption p,#infinity-base .section-break h2 {
     color: #FFFFFF;
     font-size: 166%;
     line-height: 150%;
@@ -204,7 +187,9 @@ h2 span,h3 span,h4 span,h1 span {
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.14);
 }
-
+.installation-block a img:hover {
+    opacity: 0.8;
+}
 
 /*Features*/
 .features-wrap h2:before {
