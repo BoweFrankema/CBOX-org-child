@@ -163,6 +163,4 @@ There is a healthy eco-system of freelance developers and consultants who are ex
 		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/discussion-forums.png">
 	</div>
 
-<a href="http://commonsinabox.org/download" class="button green">Download Commons in a Box</a>
-
 </div>
