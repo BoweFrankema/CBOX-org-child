@@ -8,10 +8,12 @@ function infinity_slider_insert()
 	// load template for the slider
 	if ( is_page_template( 'templates/homepage-template.php' ) ): ?>
 <div id="intro-header">
+	<div class="wow bounceInDown">
 					<!-- Image -->
 					<a href="http://commonsinabox.org/download">
 						<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/splash-image.png">		
 					</a>
+	</div>
 	<div class="section-break blue">
 		<h2>CBOX takes the complexity out of creating a Commons site, helping organizations create a space where members can discuss issues, collaborate on projects, and share work.</h2>
 	</div>
@@ -53,7 +55,7 @@ function cbox_child_bx_slider_script()
 
 			new WOW(
   {
-    offset:       100,        // default
+    offset:       50,        // default
     duration:     '1s',       // default
     delay:        '0s',       // default
     iteration:    '1'         // default
