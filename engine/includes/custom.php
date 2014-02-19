@@ -50,6 +50,16 @@ function cbox_child_bx_slider_script()
 					});
 
 			});
+
+			new WOW(
+  {
+    offset:       100,        // default
+    duration:     '1s',       // default
+    delay:        '0s',       // default
+    iteration:    '1'         // default
+  }
+).init();
+
 		</script><?php
 	}
 }

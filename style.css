@@ -304,3 +304,7 @@ h2 span,h3 span,h4 span,h1 span {
     height: auto;
     line-height: 100%;
 }
+
+.section-break.black {
+    margin-bottom: -30px;
+}

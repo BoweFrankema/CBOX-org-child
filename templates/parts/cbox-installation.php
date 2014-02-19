@@ -6,34 +6,32 @@
 ?>
 <div class="installation-block homepage-block row">
 
-  	<div class="step-1 column five homepage-widget">
+  	<div class="wow fadeInDown step-1 column five homepage-widget">
   		<h4>
   			<span>Step 1:</span> Install CBOX
   		</h4>
 
-  		<a class="lightbox fancybox.iframe" href="http://www.youtube.com/embed/JG1p_x_KZNQ?rel=0">
+  		<a class="lightbox fancybox.iframe" href="//www.youtube.com/embed/op4aKgNHLh4?autoplay=1">
   			<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/step-install.png">
   		</a>
 
   	</div>
   
-  	<div class="step-2 column five homepage-widget">
+  	<div class="wow fadeInDown step-2 column five homepage-widget" data-wow-delay="1s">
   		<h4>
   			<span>Step 2:</span> Choose Features 
   		</h4>
-      <a class="lightbox fancybox.iframe" href="http://www.youtube.com/embed/JG1p_x_KZNQ?rel=0">
     		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/step-features.png">
-      </a>
   	</div>
 
-  	<div class="step-3 column six homepage-widget">
+  	<div class="wow fadeInDown step-3 column six homepage-widget" data-wow-delay="2s">
 		<h4>
 			<span>Step 3:</span> Customize!
 		</h4>
 
-    <a class="lightbox fancybox.iframe" href="http://www.youtube.com/embed/JG1p_x_KZNQ?rel=0">
+  
 		  <IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/step-customize.png">
-    </a>
+  
 			
   	</div>
 

@@ -45,7 +45,7 @@ infinity_get_header();
 
 	<div class="showcase-wrap">
 		<?php
-			infinity_get_template_part( 'templates/parts/cbox-showcase' );
+			//infinity_get_template_part( 'templates/parts/cbox-showcase' );
 		?>
 	</div>
 

@@ -8,7 +8,7 @@
 		<h2>CBOX is a platform for easy and powerful community websites.</h2>
 	</div>
 
-<div class="curated-plugins homepage-block row">
+<div class="wow slideInLeft curated-plugins homepage-block row">
 
     <div class="column eight">
 		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/curated-plugins.png">
@@ -24,7 +24,7 @@
 
 </div>
 
-<div class="collaboration-tools homepage-block row">
+<div class="wow slideInRight collaboration-tools homepage-block row">
 
 	<div class="column eight">
 
@@ -40,7 +40,7 @@ Documents can be linked to Discussion Groups and have different privacy levels. 
 
 </div>
 
-<div class="member-profiles homepage-block row">
+<div class="wow slideInLeft member-profiles homepage-block row">
 
 
     <div class="column eight">
@@ -60,7 +60,7 @@ The Member Directory lets members search for other members based on these profil
 
 </div>
 
-<div class="discussion-groups homepage-block row">
+<div class="wow slideInRight discussion-groups homepage-block row">
 
 	<div class="column eight">
 
@@ -78,7 +78,7 @@ Want to discuss something in private? Groups can be public, private or completel
 </div>
 
 
-<div class="activity-streams homepage-block row">
+<div class="wow slideInLeft activity-streams homepage-block row">
 
 
 	<div class="column eight">
@@ -99,7 +99,7 @@ Members can also post status updates about their work progress, share useful res
 
 </div>
 
-<div class="forums homepage-block row">
+<div class="wow slideInRight forums homepage-block row">
 
 	<div class="column eight">
 
@@ -119,7 +119,7 @@ Once members start to participate in forum discussions, they’ll want to stay c
 
 </div>
 
-<div class="community-powered homepage-block row">
+<div class="wow slideInLeft community-powered homepage-block row">
 
 	<div class="column eight">
 		<?php if ( bp_has_members( 'user_id=0&type=random&max=15&per_page=15' ) ) : ?>	
@@ -144,7 +144,7 @@ The Commons In A Box community is full of people that use CBOX to power their ne
 
 </div>
 
-<div class="much-more homepage-block row">
+<div class="wow slideInRight much-more homepage-block row">
 
 	<div class="column eight">
 
