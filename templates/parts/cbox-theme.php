@@ -25,13 +25,13 @@
 	<div class="wow slideInLeft column six theme-feature" data-wow-delay="0.4s">   
 			<h4>100% Responsive Designs</h4>
 			<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/features/responsive.png">
-			The CBOX Theme has a 100% responsive design. Weither your users visit your site on their desktop PC or their mobile device, it will look and behave great. 
+			The CBOX Theme has a 100% responsive design. Whether your users visit your site on their desktop PC, tablets, or mobile devices, it will display content accordingly.
 	</div> 
 
 	<div style="clear:both;"></div>
 
 	<div class="wow slideInLeft column five theme-feature" data-wow-delay="0">         
-			<h4>Clean SEO friendly code</h4>
+			<h4>Clean SEO-Friendly Code</h4>
 			<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/features/html5.png">
 			SEO is more then just great content. The structure of your sites code and the use of the proper HTML tags across your templates is crucial. We’ve followed all best practices to make sure your content is picked up.
 	</div>

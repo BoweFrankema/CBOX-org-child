@@ -38,7 +38,7 @@
   	<div style="clear:both;"></div>
 
   	<div class="callout">
-  		Start a social network for your academic community or organization in 10 minutes flat
+  		Join the organisations and academic communities below and start your social network in 10 minutes flat. 
   	</div>
 
   	<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logos.jpg">

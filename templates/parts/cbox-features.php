@@ -5,7 +5,15 @@
  */
 ?>
 	<div class="section-break green testimonials-break">
-		<h2>CBOX is a platform for easy and powerful community websites.</h2>
+		<h2>CBOX is a platform for creating easy and powerful community websites.</h2>
+	</div>
+
+	<div class="intro-text-wrap">
+
+		<div class="intro-text">
+	Commons In A Box (CBOX) is a free software project aimed at turning the infrastructure that successfully powers the <a href="http://commons.gc.cuny.edu">CUNY Academic Commons</a> into a free, distributable, easy-to-install package. Commons In A Box is a project of the <a href="http://www.cuny.edu">City University of New York</a> and the <a href="http://www.gc.cuny.edu">Graduate Center, CUNY</a> and is made possible by a generous grant from the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>
+		</div>
+
 	</div>
 
 <div class="wow slideInLeft curated-plugins homepage-block row">
@@ -17,9 +25,9 @@
 	<div class="column eight">
 
 		<h2>Curated Plugins</h2>
-			CBOX helps you to install BuddyPress along with a number of carefully selected and vetted BuddyPress plugins, so that you don't have to worry about which plugins are best and which are compatible with each other.
+			CBOX automatically installs BuddyPress and a number of carefully vetted BuddyPress plugins onto an existing WordPress site to create a feature-rich social network.  It takes the guesswork out of deciding which plugins are necessary and compatible with one another.
 			<p>
-			Besides the curated plugins there are also some recommended plugins you can easily install straight from the CBOX Dashboard. These plugins are not crucial but can be very helpful for your community. Do you already have a WordPress site and a set of favorite plugins? No worries, these will work just fine with Commons in a Box!
+			In addition to installing plugins necessary to a Commons site, CBOX lists recommended plugins that can be easily installed from the CBOX dashboard.  These are not crucial, but may be great additions, depending your site’s configuration.
 	</div>
 
 </div>
@@ -28,8 +36,9 @@
 
 	<div class="column eight">
 
-		<h2>Collaboration Tools</h2>
-Adds collaborative work spaces to your community. Part wiki, part document editing, part shared Dropbox, CBOX provides the tools your community needs to work together.
+		<h2>Tools for Collaboration</h2>
+		CBOX provides the tools your community needs to work together.
+Add collaborative work spaces to your community through shared documents that can be edited by members of an entire group. All changes to group documents are stored in revision histories, which means that older versions can be restored if needed.
 	<p>
 Documents can be linked to Discussion Groups and have different privacy levels. Want to work on a document together? The revision system and one-editor-at-a-time prevention system keeps things backed up and organized. 
 	</div>
@@ -51,9 +60,9 @@ Documents can be linked to Discussion Groups and have different privacy levels. 
 
 		<h2>Member Profiles</h2>
 		
-		Members of your community build a public profile where they share personal information. As the Commons administrator, you set up profile fields relevant for your community, such as Academic interests, Positions, and Educational background. 
+Members of your community can build public profiles to share and aggregate personal information. As the Commons administrator, you set up profile fields relevant for your community, such as academic interests, positions, or affiliations.
 	<p>
-The Member Directory lets members search for other members based on these profile fields, and connect with each other through private messages or public mentions across the community. 
+The Member Directory lets members search for other members based on these profile fields, and connect with each other through private messages or public mentions.
 
 	</div>
 
@@ -65,13 +74,53 @@ The Member Directory lets members search for other members based on these profil
 	<div class="column eight">
 
 		<h2>Discussion Groups</h2>
-Boost engagement by letting your community members create and join discussion groups that match their interests. These groups can focus on any topic and include discussion forums, document collaboration and much more. 
+Boost engagement by letting community members create and join groups that match their interests and needs. A great way to administrate, teach, discuss, or just share commons interests, groups come with a forum, an announcement system, and the wiki-like “Docs” editor.
 		<p>
-Want to discuss something in private? Groups can be public, private or completely hidden. Access is granted by the Group Moderator(s) to ensure the right people can access the right groups. 
+Want to discuss something in private? Groups can be public, private or completely hidden. Access is granted by the Group Moderator(s) to ensure the right people can access the right groups.” to “Access is granted by the Group Moderator(s) to keep group interactions secure.
 	</div>
 
 		    <div class="column eight">
 		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/discussion-groups.png">
+	</div>
+
+
+</div>
+
+
+<div class="wow slideInLeft docs homepage-block row">
+
+
+	<div class="column eight">
+		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/docs.png">
+	</div>
+
+	<div class="column eight">
+
+		<h2>Docs</h2>
+
+Part wiki, part document manager, part shared Dropbox, Docs provides the tools your community needs to collaborate. The revision system and one-editor-at-a-time prevention system keeps document versions backed up and nicely organized.  
+
+<p>
+Documents are easily shared via hyperlinks, and can be assigned different privacy levels. All documents can be tagged, sorted, and filtered with ease.
+
+	</div>
+
+
+</div>
+
+<div class="wow slideInRight sitewide-wiki homepage-block row">
+
+	<div class="column eight">
+
+		<h2>Sitewide Wiki</h2>
+Let your entire community build a knowledge repository with CBOX’s built-in Wiki.  A rich text editor allows for easy links, images, and formatting.
+
+<p>
+	Content on both the public wiki and private wikis can be tagged, categorized, and organized in parent/child hierarchies.  Revisions are tracked, and it is easy to revert back to former versions.
+	</div>
+
+		    <div class="column eight">
+		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wiki.png">
 	</div>
 
 
@@ -89,11 +138,11 @@ Want to discuss something in private? Groups can be public, private or completel
 
 		<h2>Activity Streams</h2>
 
-Allow members to easily keep track of what's going on across your community with the Activity Stream. New blog posts, forum discussions and group activity are collected in personal streams, and members can quickly get an overview of their colleagues’ activity. 
+Allow members to easily keep track of what’s going on across your community with the Activity Stream. New blog posts, forum discussions and group activity are collected in personal streams, and members can quickly get an overview of the activity of their colleagues.
 
 		<p>
 
-Members can also post status updates about their work progress, share useful resources or simply use the stream to see the latest items published across your network! 
+Members can also post status updates about their work progress, share useful resources or simply use the stream to see the latest items published across your network.
 	</div>
 
 
@@ -105,11 +154,11 @@ Members can also post status updates about their work progress, share useful res
 
 		<h2>Discussion Forums</h2>
 		
-For in-depth discussions about various topics, the group forums are the perfect solution. Let community members create topics and see threaded discussion unfold. Create separate support forums to help members get started using your Commons or add a forum to one of your discussion groups. 
+For in-depth discussions about various topics, group forums are the perfect solution. Let community members create topics and see threaded discussion unfold. Create separate support forums to help members get started using your Commons or add a forum to one of your discussion groups.
 
 		<p>
 
-Once members start to participate in forum discussions, they’ll want to stay current with what’s going on.  Individual members configure how they want their email notifications arrive – separately, or in daily or weekly digests. Even replying to a topic straight from their email is possible! 
+Once members start to participate in forum discussions, they’ll want to stay current with what’s going on. Individual members configure how they want their email notifications arrive – separately, or in daily or weekly digests. Even replying to a topic straight from their email is possible.
 
 	</div>
 
@@ -136,7 +185,7 @@ Once members start to participate in forum discussions, they’ll want to stay c
 	<div class="column eight">
 
 		<h2>Community Powered</h2>
-The Commons In A Box community is full of people that use CBOX to power their networks. Visit the CBOX forums to receive help from our community and leave feedback and suggestions for the development team. You’ll find extensive documentation, development tutorials and various tips and tricks about how to customize your site. 
+The Commons In A Box community is full of people who use CBOX to power their networks. Visit the <a href="http://commonsinabox.org/groups/help-support/forum/">CBOX forums</a> to receive help from our community and leave feedback and suggestions for the development team. You’ll find extensive documentation, development tutorials and various tips and tricks about how to customize your site.
 		<p>
 	
 		Create your profile on Commonsinabox.org and help us make CBOX better. Are you a developer? Help us improve CBOX and start contributing code through <a href="https://github.com/cuny-academic-commons/" target="_blank">GitHUb</a>. 
@@ -150,11 +199,11 @@ The Commons In A Box community is full of people that use CBOX to power their ne
 
 		<h2>And so much more!</h2>
 
-Commons in a Box is built upon WordPress, the biggest Open Source software in the world. This means that there are hundreds of volunteers all over the world working every day to make WordPress faster, easier and more secure. 
+Commons in a Box is built upon WordPress, the biggest Open Source software in the world. There are hundreds of volunteers all over the world working every day to make WordPress faster, easier and more secure. 
 	
 	<p>
 	
-There is a healthy eco-system of freelance developers and consultants who are experienced in working on WordPress projects. By leveraging the power of WordPress and BuddyPress, we're able to provide a free, distributable, and easy-to-install package for creating Commons communities.
+There is a healthy ecosystem of freelance developers and consultants who are experienced in working on WordPress projects. By leveraging the power of WordPress and BuddyPress, we’re able to provide a free, distributable, and easy-to-install package for creating Commons communities.
 		 </p>
 	</div>
 

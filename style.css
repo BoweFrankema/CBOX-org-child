@@ -177,7 +177,7 @@ h2 span,h3 span,h4 span,h1 span {
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
 }
-.flex-caption p,#infinity-base .section-break h2 {
+.flex-caption p,#infinity-base .section-break h2, .intro-text {
     color: #FFFFFF;
     font-size: 166%;
     line-height: 150%;
@@ -187,6 +187,23 @@ h2 span,h3 span,h4 span,h1 span {
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.14);
 }
+.intro-text-wrap {
+    background: none repeat scroll 0 0 #19B75B;
+    border-top: 1px solid #109C4B;
+    color: #EFEFEF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.intro-text {
+    font-size: 100%;
+    font-weight: normal;
+    color: #EFEFEF;
+}
+.intro-text a {
+    color: #FFF;
+    font-weight: bold;
+}
+
 .installation-block a img:hover {
     opacity: 0.8;
 }
