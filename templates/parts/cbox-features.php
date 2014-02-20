@@ -76,7 +76,7 @@ The Member Directory lets members search for other members based on these profil
 		<h2>Discussion Groups</h2>
 Boost engagement by letting community members create and join groups that match their interests and needs. A great way to administrate, teach, discuss, or just share commons interests, groups come with a forum, an announcement system, and the wiki-like “Docs” editor.
 		<p>
-Want to discuss something in private? Groups can be public, private or completely hidden. Access is granted by the Group Moderator(s) to ensure the right people can access the right groups.” to “Access is granted by the Group Moderator(s) to keep group interactions secure.
+Want to discuss something in private? Groups can be public, private or completely hidden. Access is granted by the Group Moderator(s) to keep group interactions secure.
 	</div>
 
 		    <div class="column eight">
