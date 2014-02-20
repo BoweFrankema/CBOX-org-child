@@ -41,7 +41,7 @@ Commons In A Box  made it possible for us to get the Project Hieroglyph communit
 	</div>
 
     <div class="wow fadeInDown column two">
-		<IMG SRC="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/christian.jpg">
+		<IMG SRC="http://gravatar.com/avatar/b4fa5015e88f2b2983e10b776ade83f5">
 	</div>
 
 	<div class="wow fadeInDown column six">
